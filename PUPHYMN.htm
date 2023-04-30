@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Polytechnic University of the Philippines</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="header">
+      <h2>Polytechnic University of the Philippines</h2>
+      <h3>The Country's first Polytechnic University</h3>
+      <img src="logo.png" height="100" width="100">
+    </div>
+
+    <div id="main">
+      <div id="music-player">
+        <div id="track-info">
+          <marquee id="track-lyrics" direction="up" scrollamount="1">
+            <br> <br>IMNO NG PUP<br> <br>
+            <br>Sintang Paaralan<br>
+            <br>Tanglaw ka ng bayan<br>
+            <br>Pandayan ng isip ng kabataan<br>
+            <br>Kami ay dumating nang salat sa yaman<br>
+            <br>Hanap na dunong ay iyong alay<br>
+            <br>Ang layunin mong makatao<br>
+            <br>Dinarangal ang Pilipino<br>
+            <br>Ang iyong aral, diwa, adhikang taglay<br>
+            <br>PUP, aming gabay<br>
+            <br>Paaralang dakila<br>
+            <br>PUP, pinagpala<br> <br>
+            <br>Gagamitin ang karunungan<br>
+            <br>Mula sa iyo, para sa bayan<br>
+            <br>Ang iyong aral, diwa, adhikang taglay<br>
+            <br>PUP, aming gabay<br>
+            <br>Paaralang dakila<br>
+            <br>PUP, pinagpala<br>
+          </marquee>
+        </div>
+        <audio controls id="audio-player" autoplay onplay="startScroll()" onpause="stopScroll()">
+          <source src="puphymn.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>&copy; 2023 All rights reserved.</p>
+    </div>
+  <script src="ronan.js"></script>
+  </body>
+</html>
